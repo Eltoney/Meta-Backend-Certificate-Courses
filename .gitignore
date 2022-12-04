@@ -104,6 +104,14 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.djangoTask1
+djangoTask1/
+.tutorial-env
+tutorial-env/
+.djenv
+djenv/
+.dj3venv
+dj3venv/
 env/
 venv/
 ENV/
