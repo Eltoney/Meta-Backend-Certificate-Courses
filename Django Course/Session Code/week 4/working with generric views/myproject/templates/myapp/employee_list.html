@@ -1,0 +1,10 @@
+<table>
+  {% for object in object_list %}
+  <tr>
+    <td>Employer {{forloop.counter}}</td>
+    <td>Name: {{ object.name }}</td>
+    <td>Email: {{ object.email }}</td>
+    <td>contact: {{ object.contact }}</td>
+  </tr>
+  {%endfor%}
+</table>
